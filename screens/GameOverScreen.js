@@ -3,7 +3,7 @@ import Title from "../components/ui/Title"
 import Colors from "../constants/colors";
 import PrimaryButton from "../components/ui/PrimaryButton"
 
-function GameOverScreen({rounds, userNumber, onRestart}) {
+function GameOverScreen({rounds, userNumber, onRestart }) {
   return(
         <View style={styles.rootContainer}>
           <Title>Game Over!</Title>
