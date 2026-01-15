@@ -57,7 +57,7 @@ export default function App() {
       >
           {screen}
       </ImageBackground>
-      <StatusBar style="light" />
+      <StatusBar style="auto" />
     </LinearGradient>
   )
 }
